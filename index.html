@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--===============================================================================================-->
+
+        <title>Geeks Code</title>
+        <!--===============================================================================================-->
+
+        <meta charset="UTF-8" />
+        <!--===============================================================================================-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--===============================================================================================-->
+
+        <link rel="icon" type="image/png" href="images/icons/logoG.ico" />
+        <!--===============================================================================================-->
+
+        <link rel="stylesheet" type="text/css" href="scss/style.css" />
+        <!--===============================================================================================-->
+    </head>
+    <body>
+        <div class="soon-container">
+            <img width="390px" src="images/Geeks_Code-black.png" alt="logo" />
+
+            <h5>Coming Soon</h5>
+
+            <div class="flex-w cd100">
+                <div class="how-countdown">
+                    <span class="l1-txt3 days">29</span>
+                    <span class="s1-txt1">Days</span>
+                </div>
+
+                <div class="how-countdown">
+                    <span class="l1-txt3 hours">24</span>
+                    <span class="s1-txt1">Hours</span>
+                </div>
+
+                <div class="how-countdown">
+                    <span class="l1-txt3 minutes">0</span>
+                    <span class="s1-txt1">Minutes</span>
+                </div>
+
+                <div class="how-countdown">
+                    <span class="l1-txt3 seconds">0</span>
+                    <span class="s1-txt1">Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendor/countdowntime/countdowntime.js"></script>
+        <script>
+            $('.cd100').countdown100({
+                // Set Endtime here
+                // Endtime must be > current time
+                endtimeYear: 0,
+                endtimeMonth: 0,
+                endtimeDate: 29,
+                endtimeHours: 24,
+                endtimeMinutes: 0,
+                endtimeSeconds: 0,
+                timeZone: '',
+                // ex:  timeZone: "America/New_York", can be empty
+                // go to " http://momentjs.com/timezone/ " to get timezone
+            });
+        </script>
+    </body>
+</html>

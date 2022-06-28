@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+body {
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+    font-family: 'Roboto',
+        sans-serif;
+
+    .soon-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    img {
+        margin-bottom: -150px;
+    }
+
+    h5 {
+        font-weight: 900;
+        font-size: 43px;
+    }
+}
+
+
+.flex-w {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .how-countdown {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        background: #fff;
+        color: #333;
+        padding: 10px 0;
+        margin: 5px 20px;
+        border-radius: 3px;
+        box-shadow: inset -7px -6px 6px #d3d3d39e;
+        font-size: 18px;
+
+        .l1-txt3 {
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: 900 !important;
+            color: #555555;
+        }
+
+        .s1-txt1 {
+            color: rgb(142, 142, 142);
+            font-size: 15px;
+        }
+    }
+}
